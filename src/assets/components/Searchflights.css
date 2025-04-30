@@ -1,0 +1,122 @@
+.main {
+    background-color: rgb(185, 240, 209);
+    padding: 30px;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(224, 202, 202);
+    width: 700px;
+}
+
+.Htitle {
+    height: 23px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+}
+
+.radios {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+.fd1,
+.fd2,
+.fd3,
+.fd {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+    position: relative;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    position: absolute;
+    /* Position label absolutely */
+    top: 17px;
+    /* Position label above the input field */
+    left: 10px;
+    /* Align label with input padding */
+    background-color: #f9f9f9;
+    /* Match the background color of the container */
+    padding: 0 5px;
+    /* Add padding to prevent overlap with input border */
+    z-index: 1;
+    /* Ensure label appears above the input */
+    transition: all 0.3s ease;/
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    padding-top: 10;
+    width: 147px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #f99a0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+}

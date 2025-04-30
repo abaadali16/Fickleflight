@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    color: rgb(199, 186, 186);
+    background-color: white;
+
+}
+
+.navbarLogo img {
+    width: 173px;
+    cursor: pointer;
+
+}
+
+.navbartitle {
+    display: flex;
+    align-items: center;
+}
+
+.navbartitle ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px 25px;
+    font: Roboto;
+    cursor: pointer;
+}
+
+.navbarlist li:hover {
+    color: #1262AF;
+    transition: all 0.8s ease-in-out;
+
+}
+
+.navbartitle ul li {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.bell:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.footermain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    color: rgb(199, 186, 186);
+    background-image: url('../images/Back1.png');
+
+
+}
+
+.flogo {
+    padding-top: 10px;
+    width: 173px;
+    height: 32px;
+    top: 0.53px;
+    cursor: pointer;
+
+}
+
+.fpara {
+    padding-top:15px ;
+    width: 592px;
+    height: 54px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+
+.ficons {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+    padding-bottom: 40px;
+
+}
