@@ -25,7 +25,7 @@
 }
 
 .fpara {
-    padding-top:15px ;
+    padding-top: 15px;
     width: 592px;
     height: 54px;
     font-family: Roboto;
@@ -36,11 +36,118 @@
 }
 
 .ficons {
-    padding-top: 40px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     gap: 20px;
     cursor: pointer;
-    padding-bottom: 40px;
+    margin-bottom: 30px;
 
+}
+.hline{
+    width: 1px;
+    height: 170px;
+    background-color: rgb(228, 219, 219);
+margin: 0px 2rem;
+
+}
+.footersec2 {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.footersec2 h4 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    width: 131px;
+    height: 27px;
+    left: 197px;
+    color: white;
+
+}
+.footersec2 ul li{
+    list-style: none;
+    color: rgb(228, 219, 219);
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 22px;
+}
+.footersec2 ul li:hover{
+    color: white;
+    transition: 0.03s ease-in-out;
+    
+}
+.footersec2 ul{
+    padding-top: 18px;
+    
+}
+/* Existing styles... */
+
+@media (max-width: 768px) {
+    .footermain {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .flogo {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .fpara {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .ficons {
+        justify-content: center;
+        gap: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footersec2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footersec2 h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footersec2 ul {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .footersec2 ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .hline {
+        display: none; /* Hide the vertical line on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .footermain {
+        padding: 15px;
+    }
+
+    .fpara {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .footersec2 ul li {
+        font-size: 13px;
+    }
 }

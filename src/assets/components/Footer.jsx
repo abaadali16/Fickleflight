@@ -28,8 +28,37 @@ const Footer = () => {
                     </div>
 
                 </div>
+                <div className="hline">
+                <hr />
+                </div>
                 <div className="footersec2">
-
+                   <div className="list1">
+                     <h4>Company</h4>
+                   <ul>
+                   <li>About us</li>
+                    <li>News</li>
+                    <li>Careers</li>
+                    <li>How we work</li>
+                   </ul>
+                   </div>
+                   <div className="list2">
+                     <h4>Support</h4>
+                   <ul>
+                   <li>Account</li>
+                    <li>Support Center</li>
+                    <li>FAQ</li>
+                    <li>Accesibility</li>
+                   </ul>
+                   </div>
+                   <div className="list2">
+                     <h4>More</h4>
+                   <ul>
+                   <li>Covid Advisory</li>
+                    <li>Airline Fees</li>
+                    <li>Tips</li>
+                    <li>Quarentines ruls</li>
+                   </ul>
+                   </div>
                 </div>
             </div>
         </div>

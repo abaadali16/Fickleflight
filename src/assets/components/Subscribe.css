@@ -1,0 +1,84 @@
+.subscribecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/Sub.png');
+    background-repeat: no-repeat;
+}
+
+.subscribetext {
+    width: 509px;
+    height: 80px;
+    gap: 12px;
+}
+
+.subscribeinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 449px;
+    height: 250px;
+    top: 52px;
+    left: 445.5px;
+    gap: 15px;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subp {
+    width: 509;
+    height: 21;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1262AE;
+    margin-bottom: 8px;
+
+}
+
+.subH {
+    color: #434343;
+    width: 509px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inputP {
+    width: 449px;
+    height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: rgba(87, 96, 116, 1);
+    margin-left: 16%;
+}
+
+.subbtn {
+    width: 120px;
+    border-radius: 4px;
+    background-color: rgba(249, 154, 14, 1);
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 265px;
+    font-size: 15px;
+    font-weight:500px;
+
+}

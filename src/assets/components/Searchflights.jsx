@@ -19,15 +19,15 @@ const Searchflights = () => {
             </div>
             <div className="fields">
                <div className="fd1">
-               <label htmlFor="">Departure</label><br />
+               <label className='lb1' htmlFor="">Departure</label><br />
                <input type="text" placeholder='Singapore(SIN)' />
                </div>
                <div className="fd2">
-                <label htmlFor="">Arival</label><br />
+                <label className='lb2' htmlFor="">Arival</label><br />
                 <input type="text" placeholder='Washington' />
                </div>
                <div className="fd3">
-                <label htmlFor="">Date</label><br />
+                <label className='lb3' htmlFor="">Date</label><br />
                 <input type="date" placeholder='Date' />
                </div>
                <div className="fd">
