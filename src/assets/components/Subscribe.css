@@ -1,4 +1,4 @@
-.subscribecontainer {
+.subscribecontainerS {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,79 +6,84 @@
     height: 100vh;
     background-image: url('../images/Sub.png');
     background-repeat: no-repeat;
-}
-
-.subscribetext {
-    width: 509px;
-    height: 80px;
-    gap: 12px;
-}
-
-.subscribeinput {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 449px;
-    height: 250px;
-    top: 52px;
-    left: 445.5px;
-    gap: 15px;
+    background-size: cover;
     padding: 20px;
-    align-items: center;
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
-.subp {
-    width: 509;
-    height: 21;
+.subscribetextS {
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.subpS {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 4%;
-    text-align: center;
     text-transform: uppercase;
     color: #1262AE;
     margin-bottom: 8px;
-
 }
 
-.subH {
-    color: #434343;
-    width: 509px;
-    height: 35px;
+.subHS {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 30px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
+    color: #434343;
 }
 
-.inputP {
-    width: 449px;
-    height: 22px;
+.subscribeinputS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+}
+
+.inputPS {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
     font-size: 18px;
-    letter-spacing: 0%;
     color: rgba(87, 96, 116, 1);
-    margin-left: 16%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.subbtn {
-    width: 120px;
-    border-radius: 4px;
-    background-color: rgba(249, 154, 14, 1);
-    color: white;
-    padding: 16px;
+.subscribeinputS input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.subscribeinputS input:focus {
+    outline: none;
+    border-color: #1262AE;
+}
+
+.subbtnS {
+    align-self: flex-start;
+    width: 40%;
+    padding: 14px;
+    border-radius: 6px;
+    background-color: #f99a0e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
     border: none;
     cursor: pointer;
-    margin-right: 265px;
-    font-size: 15px;
-    font-weight:500px;
+    transition: background-color 0.3s ease;
+}
 
+.subbtnS:hover {
+    background-color: #d9820c;
 }

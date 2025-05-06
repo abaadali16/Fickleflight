@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .containerPopular {
+    width: 100%;
+    padding: 20px 60px;
+    background-color: #fff;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .headT {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(56, 54, 54);
+  }
+  
+  .view {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .view p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(18, 98, 174, 1);
+  }
+  
+  .view img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .cards {
+    width: 23%;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+    padding: 0; /* important */
+  }
+  
+  .cards:hover {
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+  }
+  
+  .c1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+  
+  .about1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      padding: 12px;
+  }
+  
+  .lft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .abutp {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+  }
+  
+  .dns {
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+  }
+  
+  .arrow {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(18, 98, 175, 1);
+  }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .cards {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cards {
+      width: 100%;
+    }
+  
+    .containerPopular {
+      padding: 20px;
+    }
+  
+    .head {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+  

@@ -2,16 +2,16 @@ import React from 'react'
 import "./Subscribe.css"
 const Subscribe = () => {
     return (
-        <div className='subscribecontainer'>
-            <div className="subscribetext">
-                <p className='subp'>subscribe to our newsletter</p>
-                <h1 className='subH'>Get weekly updates</h1>
+        <div className='subscribecontainerS'>
+            <div className="subscribetextS">
+                <p className='subpS'>subscribe to our newsletter</p>
+                <h1 className='subHS'>Get weekly updates</h1>
             </div>
-                <div className="subscribeinput">
-                    <p className='inputP'>Fill in your details to join the party!</p>
+                <div className="subscribeinputS">
+                    <p className='inputPS'>Fill in your details to join the party!</p>
                     <input type="text" placeholder='Your name' />
                     <input type="text" placeholder='Email address' />
-                    <button className='subbtn'>SUBMIT</button>
+                    <button className='subbtnS'>SUBMIT</button>
                 </div>
             
         </div>

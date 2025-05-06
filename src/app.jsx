@@ -1,22 +1,23 @@
-import Navbar from "./assets/components/Navbar"
-import Herosection from "./assets/components/Herosection"
-import Searchflights from "./assets/components/Searchflights"
-import Footer from "./assets/components/Footer"
-import Subscribe from "./assets/components/Subscribe"
-import Popular from "./assets/components/Popular"
-
-
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Home from "./assets/pages/Home"
+// import Hotel from "./assets/pages/Hotel";
+// import Offers from "./assets/pages/Offers";
+// import Search from "./assets/pages/Search";
+import Callapi from "./assets/components/Callapi"
 export function App() {
 
   return (
     <>
-    <Popular/>
-    {/* <Uploadfile/> */}
-      {/* <Subscribe /> */}
-      {/* <Navbar /> */}
-      {/* <Footer/> */}
-      {/* <Herosection /> */}
-      {/* <Searchflights /> */}
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/hotel" element={<Hotel />} />
+          <Route path="/offers" element={<Offers />} />
+        </Routes>
+      </Router> */}
+      <Callapi/>
+
     </>
   )
 }
