@@ -19,7 +19,7 @@ const Callapi = () => {
     }, [])
         return (
             <div>
-                {data.map((item, index) => (
+                {data?.map((item, index) => (
                     <div key={index}>
                        <div style={{width:"40%"}}>
                        <img style={{width:"20%",height:"15%"}} src={item.image} alt="" />
